@@ -1,0 +1,57 @@
+body{
+    background-color:aliceblue;
+    font-family: sans-serif;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+}
+
+.wrapper{
+    background-color: white;
+     
+    padding: 50px 150px 50px 30px;
+    margin-top: 200px;   
+    border-radius: 8px;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.el{
+    margin: 10px;
+}
+
+.AP{
+    background-color:antiquewhite;
+
+}
+.SH{
+    margin-top: 5px;
+    background-color:aqua;
+   
+}
+
+.creators span{
+    
+    padding: 10px;
+    border-radius: 20%;
+    display:inline-block;
+
+box-shadow: 0px 5px 5px -4px rgba(0, 0, 0, 0.3);
+    
+}
+
+.tags span{
+    background-color:aliceblue ;
+    border-radius: 10%;
+    padding: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.fa{
+    font-size: 80px;
+}
